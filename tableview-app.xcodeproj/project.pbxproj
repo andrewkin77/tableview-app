@@ -14,6 +14,9 @@
 		4953B9E82517698B005BBCCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4953B9E62517698B005BBCCC /* LaunchScreen.storyboard */; };
 		4953B9F625176E78005BBCCC /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4953B9F525176E78005BBCCC /* CategoryCell.swift */; };
 		49D3AAE0251791D60093A69B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D3AADF251791D60093A69B /* AppDelegate.swift */; };
+		49D3AAE42518EEEC0093A69B /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D3AAE32518EEEC0093A69B /* ProductCell.swift */; };
+		49D3AAEB2518F4B60093A69B /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D3AAE62518F2B10093A69B /* Product.swift */; };
+		49D3AAEE2518F9550093A69B /* ProductsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D3AAED2518F9550093A69B /* ProductsVC.swift */; };
 		49D5AD072517912600ECA745 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D5AD062517912600ECA745 /* DataService.swift */; };
 		49D5AD0A2517913100ECA745 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D5AD092517913100ECA745 /* Category.swift */; };
 /* End PBXBuildFile section */
@@ -28,6 +31,9 @@
 		4953B9E92517698B005BBCCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4953B9F525176E78005BBCCC /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
 		49D3AADF251791D60093A69B /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		49D3AAE32518EEEC0093A69B /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		49D3AAE62518F2B10093A69B /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		49D3AAED2518F9550093A69B /* ProductsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsVC.swift; sourceTree = "<group>"; };
 		49D5AD062517912600ECA745 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		49D5AD092517913100ECA745 /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -63,10 +69,10 @@
 			isa = PBXGroup;
 			children = (
 				49D3AADF251791D60093A69B /* AppDelegate.swift */,
-				4953BA0525177CEC005BBCCC /* Services */,
+				4953B9F1251769E0005BBCCC /* Model */,
 				4953B9F3251769F3005BBCCC /* View */,
 				4953B9F2251769E8005BBCCC /* Controller */,
-				4953B9F1251769E0005BBCCC /* Model */,
+				4953BA0525177CEC005BBCCC /* Services */,
 				4953B9DD2517698B005BBCCC /* SceneDelegate.swift */,
 				4953B9E12517698B005BBCCC /* Main.storyboard */,
 				4953B9E42517698B005BBCCC /* Assets.xcassets */,
@@ -80,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				49D5AD092517913100ECA745 /* Category.swift */,
+				49D3AAE62518F2B10093A69B /* Product.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -88,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				4953B9DF2517698B005BBCCC /* CategoriesVC.swift */,
+				49D3AAED2518F9550093A69B /* ProductsVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -96,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				4953B9F525176E78005BBCCC /* CategoryCell.swift */,
+				49D3AAE32518EEEC0093A69B /* ProductCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -179,11 +188,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				49D3AAE0251791D60093A69B /* AppDelegate.swift in Sources */,
+				49D3AAEB2518F4B60093A69B /* Product.swift in Sources */,
 				4953B9E02517698B005BBCCC /* CategoriesVC.swift in Sources */,
 				49D5AD0A2517913100ECA745 /* Category.swift in Sources */,
 				4953B9DE2517698B005BBCCC /* SceneDelegate.swift in Sources */,
 				4953B9F625176E78005BBCCC /* CategoryCell.swift in Sources */,
+				49D3AAE42518EEEC0093A69B /* ProductCell.swift in Sources */,
 				49D5AD072517912600ECA745 /* DataService.swift in Sources */,
+				49D3AAEE2518F9550093A69B /* ProductsVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
